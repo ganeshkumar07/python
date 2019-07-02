@@ -4,7 +4,7 @@ if year%100==0:
            print('yes')
         else:
            print('No')
-elif year%4==0
+elif year%4==0:
       print(yes')
  else:
       print('No')
