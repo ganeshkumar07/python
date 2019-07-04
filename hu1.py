@@ -1,5 +1,5 @@
-num=int(input())
-l=[int(x) for x in input().split()[:num]]
+number=int(input())
+l=[int(x) for x in input().split()[:number]]
 n2=[]
 for i in range(0,int(len(l))):
     if(i==l[i]):
