@@ -1,3 +1,3 @@
-p, k = map(int,input().split())
+p, t = map(int,input().split())
 n = list(map(int,input().split()))
-print(sum(n[:k]))
+print(sum(n[:t]))
