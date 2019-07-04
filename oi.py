@@ -1,8 +1,8 @@
-num,num1=input().split()
-PG=abs(len(num)-len(num1))
+num,num2=input().split()
+PG=abs(len(num)-len(num2))
 for i in range(len(num)):
-  if len(num1)==1 and num1[i] in num:
+  if len(num2)==1 and num2[i] in num:
    break
-  if num[i]!=num1[i]:
+  if num[i]!=num2[i]:
    PG+=1
 print(PG)
