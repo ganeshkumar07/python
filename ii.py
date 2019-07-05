@@ -1,2 +1,2 @@
-asd= int(input())
-print(int(asd/2*(asd-1)))
+as= int(input())
+print(int(as/2*(as-1)))
